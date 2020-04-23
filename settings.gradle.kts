@@ -1,5 +1,5 @@
 include(":baselibrary")
 include(":app")
-include(":library")
-include(":library-no-op")
+include(":networkLibrary")
+include(":networkLibrary-no-op")
 rootProject.name = "My Application"

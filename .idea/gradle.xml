@@ -14,8 +14,8 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/baselibrary" />
             <option value="$PROJECT_DIR$/buildSrc" />
-            <option value="$PROJECT_DIR$/library" />
-            <option value="$PROJECT_DIR$/library-no-op" />
+            <option value="$PROJECT_DIR$/networkLibrary" />
+            <option value="$PROJECT_DIR$/networkLibrary-no-op" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

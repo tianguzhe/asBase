@@ -51,8 +51,8 @@ dependencies {
     implementation(fileTree("dir" to "libs", "include" to listOf("*.jar")))
     implementation(project(mapOf("path" to ":baselibrary")))
 
-    debugImplementation(project(mapOf("path" to ":library")))
-    releaseImplementation(project(mapOf("path" to ":library-no-op")))
+    debugImplementation(project(mapOf("path" to ":networkLibrary")))
+    releaseImplementation(project(mapOf("path" to ":networkLibrary-no-op")))
 
     implementation("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
     implementation(AsLibs.adxCoreKtx)
