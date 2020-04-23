@@ -17,6 +17,7 @@ dependencies {
     implementation(AsLibs.adxCoreKtx)
     implementation(AsLibs.adxViewPage)
     implementation(AsLibs.adxAppcompat)
+    implementation(AsLibs.adxActivity)
     implementation(AsLibs.googleMaterial)
 
     implementation(AsLibs.okhttp)
