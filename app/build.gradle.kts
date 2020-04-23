@@ -6,17 +6,16 @@ plugins {
 }
 
 android {
-    compileSdkVersion(29)
-    buildToolsVersion = "29.0.3"
+    compileSdkVersion(Versions.compileSdkVersion)
+    buildToolsVersion = Versions.buildToolsVersion
 
     defaultConfig {
         applicationId = "com.yikwing.myapplication"
-        minSdkVersion(21)
-        targetSdkVersion(29)
-        versionCode = 1
-        versionName = "1.0"
+        minSdkVersion(Versions.minSdkVersion)
+        targetSdkVersion(Versions.targetSdkVersion)
+        versionCode = Versions.versionCode
+        versionName = Versions.versionName
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -56,13 +55,12 @@ dependencies {
     releaseImplementation(project(mapOf("path" to ":library-no-op")))
 
     implementation("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
-    implementation("androidx.core:core-ktx:1.2.0")
-    implementation("androidx.appcompat:appcompat:1.1.0")
-    implementation("androidx.constraintlayout:constraintlayout:1.1.3")
-    implementation("androidx.recyclerview:recyclerview:1.1.0")
-    implementation("androidx.viewpager2:viewpager2:1.0.0")
-    implementation("androidx.activity:activity:1.2.0-alpha03")
-    implementation("androidx.fragment:fragment-ktx:1.3.0-alpha03")
+    implementation(AsLibs.adxCoreKtx)
+    implementation(AsLibs.adxAppcompat)
+    implementation(AsLibs.adxConstraintlayout)
+    implementation(AsLibs.adxRecyclerView)
+    implementation(AsLibs.adxActivity)
+    implementation(AsLibs.adxFragmentKtx)
 
     implementation(AsLibs.BaseRecyclerView)
     implementation(AsLibs.logger)

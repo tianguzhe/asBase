@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit
 
 class RetrofitFactory private constructor() {
 
-    private lateinit var retrofit: Retrofit
+    private var retrofit: Retrofit
 
     companion object {
         val instance by lazy {
