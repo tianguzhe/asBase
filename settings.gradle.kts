@@ -1,3 +1,4 @@
+include(":livedataPermission")
 include(":baselibrary")
 include(":app")
 include(":networkLibrary")

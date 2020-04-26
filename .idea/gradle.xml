@@ -12,8 +12,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/baselibrary" />
+            <option value="$PROJECT_DIR$/baseLibrary" />
             <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/livedataPermission" />
             <option value="$PROJECT_DIR$/networkLibrary" />
             <option value="$PROJECT_DIR$/networkLibrary-no-op" />
           </set>

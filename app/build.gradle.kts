@@ -50,6 +50,7 @@ android {
 dependencies {
     implementation(fileTree("dir" to "libs", "include" to listOf("*.jar")))
     implementation(project(mapOf("path" to ":baselibrary")))
+    implementation(project(mapOf("path" to ":livedataPermission")))
 
     debugImplementation(project(mapOf("path" to ":networkLibrary")))
     releaseImplementation(project(mapOf("path" to ":networkLibrary-no-op")))
