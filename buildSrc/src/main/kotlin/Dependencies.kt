@@ -63,6 +63,7 @@ object AsLibs {
         "com.github.CymChad:BaseRecyclerViewAdapterHelper:${Versions.BaseRecyclerView}"
     val logger = "com.orhanobut:logger:${Versions.logger}"
     val utils = "com.blankj:utilcodex:${Versions.utils}"
+    val kotlinStdlib = "org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}"
 
     // 协程
     val kotlinCoroutinesCore =

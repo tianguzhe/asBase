@@ -28,7 +28,7 @@ android {
 
 dependencies {
     implementation(fileTree("dir" to "libs", "include" to listOf("*.jar")))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
+    implementation(AsLibs.kotlinStdlib)
     implementation(AsLibs.adxActivity)
     implementation(AsLibs.adxAppcompat)
 }

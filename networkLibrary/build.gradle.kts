@@ -12,7 +12,7 @@ android {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
+    implementation(AsLibs.kotlinStdlib)
     implementation(AsLibs.adxAnnotation)
     implementation(AsLibs.adxCoreKtx)
     implementation(AsLibs.adxViewPage)

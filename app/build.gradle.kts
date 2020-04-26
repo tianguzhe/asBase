@@ -55,7 +55,7 @@ dependencies {
     debugImplementation(project(mapOf("path" to ":networkLibrary")))
     releaseImplementation(project(mapOf("path" to ":networkLibrary-no-op")))
 
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}")
+    implementation(AsLibs.kotlinStdlib)
     implementation(AsLibs.adxCoreKtx)
     implementation(AsLibs.adxAppcompat)
     implementation(AsLibs.adxConstraintlayout)
