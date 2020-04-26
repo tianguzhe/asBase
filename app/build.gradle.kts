@@ -62,12 +62,15 @@ dependencies {
     implementation(AsLibs.adxRecyclerView)
     implementation(AsLibs.adxActivity)
     implementation(AsLibs.adxFragmentKtx)
+    implementation(AsLibs.adxRoom)
+    kapt(AsLibs.adxRoomCompiler)
 
     implementation(AsLibs.BaseRecyclerView)
     implementation(AsLibs.logger)
     implementation(AsLibs.okhttp)
     implementation(AsLibs.retrofit)
     implementation(AsLibs.retrofitConverters)
+    debugImplementation(AsLibs.debugDB)
 
     implementation(AsLibs.arouterApi)
     kapt(AsLibs.arouterCompiler)

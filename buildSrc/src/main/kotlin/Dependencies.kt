@@ -18,6 +18,8 @@ object Versions {
     val googleMaterial = "1.2.0-alpha06"
     val adxActivity = "1.2.0-alpha03"
     val adxFragmentKtx = "1.3.0-alpha03"
+    val room_version = "2.2.5"
+    val debug_db = "1.0.6"
 
     //kotlin conf
     val kotlin = "1.3.72"
@@ -54,6 +56,8 @@ object AsLibs {
     val googleMaterial = "com.google.android.material:material:${Versions.googleMaterial}"
     val adxActivity = "androidx.activity:activity:${Versions.adxActivity}"
     val adxFragmentKtx = "androidx.fragment:fragment-ktx:${Versions.adxFragmentKtx}"
+    val adxRoom = "androidx.room:room-runtime:${Versions.room_version}"
+    val adxRoomCompiler = "androidx.room:room-compiler:${Versions.room_version}"
 
     // base
     val gson = "com.google.code.gson:gson:${Versions.gsonVersion}"
@@ -64,6 +68,7 @@ object AsLibs {
     val logger = "com.orhanobut:logger:${Versions.logger}"
     val utils = "com.blankj:utilcodex:${Versions.utils}"
     val kotlinStdlib = "org.jetbrains.kotlin:kotlin-stdlib:${Versions.kotlin}"
+    val debugDB = "com.amitshekhar.android:debug-db:${Versions.debug_db}"
 
     // 协程
     val kotlinCoroutinesCore =

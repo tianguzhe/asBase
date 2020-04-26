@@ -1,7 +1,12 @@
 package com.yikwing.myapplication.bean
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+
+@Entity
 data class WxListBean(
-    var courseId: Int,
+    @PrimaryKey
     var id: Int,
     var name: String,
     var order: Int,
