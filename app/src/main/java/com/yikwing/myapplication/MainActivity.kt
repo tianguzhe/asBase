@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var requestJob: Job
 
     val wxListDatabase by lazy {
-        WxListDatabase.getInstance(this)
+        WxListDatabase.getInstance(applicationContext)
     }
     val wxListDao by lazy {
         wxListDatabase.wxListdDao()
