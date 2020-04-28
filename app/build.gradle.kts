@@ -55,6 +55,8 @@ dependencies {
     debugImplementation(project(mapOf("path" to ":networkLibrary")))
     releaseImplementation(project(mapOf("path" to ":networkLibrary-no-op")))
 
+    debugImplementation(AsLibs.leakcanary)
+
     implementation(AsLibs.kotlinStdlib)
     implementation(AsLibs.adxCoreKtx)
     implementation(AsLibs.adxAppcompat)
@@ -66,6 +68,8 @@ dependencies {
     kapt(AsLibs.adxRoomCompiler)
 
     implementation(AsLibs.BaseRecyclerView)
+    implementation(AsLibs.glide)
+    kapt(AsLibs.glideCompiler)
     implementation(AsLibs.logger)
     implementation(AsLibs.okhttp)
     implementation(AsLibs.retrofit)
